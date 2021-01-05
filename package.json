@@ -1,0 +1,19 @@
+{
+  "name": "pavankusunuri_portfolio",
+  "version": "1.0.0",
+  "description": "A Portfolio of mine built using HTML, CSS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavanKusunuri/pavankusunuri_portfolio.git"
+  },
+  "author": "pavan kusunuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavanKusunuri/pavankusunuri_portfolio/issues"
+  },
+  "homepage": "https://github.com/PavanKusunuri/pavankusunuri_portfolio#readme"
+}
