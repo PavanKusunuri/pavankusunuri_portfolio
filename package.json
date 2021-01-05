@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PavanKusunuri/pavankusunuri_portfolio/issues"
   },
-  "homepage": "https://github.com/PavanKusunuri/pavankusunuri_portfolio#readme"
+  "homepage": "https://github.com/PavanKusunuri/pavankusunuri_portfolio#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
