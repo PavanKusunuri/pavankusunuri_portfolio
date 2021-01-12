@@ -35,6 +35,9 @@ body {
   line-height: 1.7;
   color: #777; }
 
+p {
+  font-size: 2rem; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -52,6 +55,11 @@ body {
 
 .u-margin-top-huge {
   margin-top: 10rem !important; }
+
+.footer {
+  background-color: red;
+  font-size: 2rem;
+  color: white; }
 
 .row {
   max-width: 114rem;
