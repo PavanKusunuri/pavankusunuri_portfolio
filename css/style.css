@@ -61,6 +61,16 @@ p {
   font-size: 2rem;
   color: white; }
 
+.skills {
+  font-size: 2rem;
+  display: flex;
+  margin: 2rem 0rem; }
+
+.skills .skill {
+  width: 100%;
+  border: 1px solid grey;
+  margin: 20rem 0rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
