@@ -38,6 +38,9 @@ body {
 p {
   font-size: 2rem; }
 
+.text {
+  font-size: 2rem; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -56,6 +59,9 @@ p {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.flex {
+  display: flex; }
+
 .footer {
   background-color: red;
   font-size: 2rem;
@@ -69,7 +75,7 @@ p {
 .skills .skill {
   width: 100%;
   border: 1px solid grey;
-  margin: 20rem 0rem; }
+  margin: 10rem 0rem; }
 
 .row {
   max-width: 114rem;
