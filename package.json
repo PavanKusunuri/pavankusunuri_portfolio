@@ -1,7 +1,7 @@
 {
   "name": "pavankusunuri_portfolio",
   "version": "1.0.0",
-  "description": "A Portfolio of mine built using HTML, CSS ",
+  "description": "A Portfolio to showcase my skills and experience in an effective way ",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"

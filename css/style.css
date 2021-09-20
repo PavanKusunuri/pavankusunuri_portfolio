@@ -27,7 +27,10 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem; }
+  background-color: #fff;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px; }
 
 body {
   font-family: "Lato", sans-serif;
@@ -62,20 +65,28 @@ p {
 .flex {
   display: flex; }
 
-.footer {
-  background-color: red;
-  font-size: 2rem;
-  color: white; }
+.intro {
+  color: lightblue;
+  font-size: 18px; }
 
-.skills {
+.footer {
   font-size: 2rem;
-  display: flex;
-  margin: 2rem 0rem; }
+  text-align: center;
+  color: #000; }
 
 .skills .skill {
   width: 100%;
-  border: 1px solid grey;
   margin: 10rem 0rem; }
+
+.container {
+  color: #000;
+  margin: 3rem; }
+
+.nav-list {
+  display: flex;
+  justify-content: space-between; }
+  .nav-list .nav-list-item {
+    list-style-type: none; }
 
 .row {
   max-width: 114rem;
