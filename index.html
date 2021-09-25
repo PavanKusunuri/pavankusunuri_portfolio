@@ -10,10 +10,9 @@
     <title>Pavan Kusunuri</title>
 </head>
 <body>
-    <div class="container">
     <!-- Header -->
     <header id="header" class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Pavan Kusunuri</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +35,7 @@
                   </li>
 
                   <li class="nav-item mx-3">
-                    <a class="nav-link" href="#projects">Portfolio Projects</a>
+                    <a class="nav-link" href="#projects">Portfolio</a>
                   </li>
                   <li class="nav-item mx-3">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -48,15 +47,17 @@
     </header>
     <!--  About Section -->
     <section class="about-section" id="about">
-        <h1>About</h1>
-        <div class="intro"> 
-            This is pavan kusunuri, full stack developer
+        <h1 class="text-center mt-2">About</h1>
+        <div class="about-text"> 
+            <span class="hello-text">Hey !</span> <br>
+            I am <span class="user_name">Pavan</span> <br>
+            I have good experience in building and maintaining Web Applications using JavaScript(React, Node) and Python(Django) 
         </div>
     </section>
     <!--  Skills Section -->
-    <section class="skills" id="skills">
-        <h1>Skills</h1>
-        <div class="skills" >
+    <section class="skills bg-light-gray" id="skills">
+        <h1 class="text-center mt-2">Skills</h1>
+        <div class="skills d-flex" >
             <div class="skill">
                 HTML5
             </div>
@@ -74,8 +75,7 @@
     </section>
     <!--  Experience Section  -->
     <section class="experience" id="experience">
-        <h1> Experience</h1>
-        <h4>Work Experience</h4>
+        <h1 class="text-center"> Experience</h1>
         <p>Uno Simple Technologies</p>
         <p>Software Development Engineer-1</p>
         <p>2019 - now</p>
@@ -83,40 +83,61 @@
         <p>Imaginnovate</p>
     </section>
     <!--  Education Section  -->
-    <section class="education" id="education">
-      <h1> Education</h1> 
+    <section class="education bg-light-gray" id="education">
+      <h1 class="text-center"> Education</h1> 
     </section>
     <!--  Portfolio section -->
     <section class="portfolio" id="portfolio">
-        <h1>Portfolio</h1>
-        <div class="flex">
-            <div class="text">WorkPlace</div>
-            <div class="text">Ecommerce</div>
-        </div>
-        <div class="flex">
-            <div class="text"> Next Home </div>
-            <div class="text">Explore India</div>
+        <h1 class="text-center">Portfolio</h1>
+        <div class="container">
+          <div class="d-flex flex-wrap">
+            <div class="card">
+               <h4>Work Place</h4>
+               <p>It is a web application which was created for students, working professionals to find an opportunity to work in their Dream Company.
+                 They can exhibit their work which will help the recruiters to find the suitable candidates for interview
+               </p>
+            </div>
+            <div class="card">
+              <h4>Ecommerce</h4>
+              <p>It is an application which is created for many vendor to create a cloud space in the market to sell their goods and 
+                customers to find their desired product.
+              </p>
+            </div>
+            <div class="card">
+              <h4>Next Home</h4>
+              <div> A webapplication which is created to find a new home in an unknown city to staying either longer period or short period.
+              </div>
+            </div>
+            <div class="card">
+              <h4>Explore Places</h4>
+              <div>A Landing Page built for users to visit the tourist places.</div>
+            </div>
+        <div class="card">
+          <h4>New Life Consultancy</h4>
+          <div>It is a consultancy website which helps to solve the gaps between working professionals and 
+            Companies to find the right people and desired company.
+          </div>
         </div>
 
+        </div>
+    
 
     </section>
     <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h1>Contact</h1>
+    <section class="contact bg-black" id="contact">
+        <h1 class="text-center">Contact</h1>
         <div><strong>Email</strong> Pavan Kusunuri</div>
         <div><strong>Phone</strong> +91 8333944812</div>
-        <div> <strong>Address</strong> 5-16/1, Challavari street, Kadiyam, East Godavari District
-            Kadiyam
-        </div>
+        <div><strong>Linkedin:</strong> <span> </span></div>
+        <div><strong>Github:</strong> <span> </span></div>
     </section>
     <!-- Footer Section -->
-    <section class="footer">
+    <section class="footer bg-light-gray">
         <div class="footer__content">
-           No Copyrights Reserved @2021.It is hosited live using Github pages.
+           PavanKusunuri@2021.Feel free to get in touch.
         </div>
 
     </section>
-    </div>
 </body>
 
 </html>

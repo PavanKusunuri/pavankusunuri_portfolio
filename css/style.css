@@ -43,8 +43,17 @@ body {
   text-align: left;
   background-color: #fff; }
 
+.bg-light-gray {
+  background-color: #f7f7f7 !important; }
+
+.bg-black {
+  background-color: #000 !important; }
+
+.color-blue {
+  color: royalblue !important; }
+
 a {
-  color: #007bff;
+  color: #fff;
   text-decoration: none;
   background-color: transparent; }
 
@@ -8100,10 +8109,8 @@ textarea.form-control-lg {
   color: lightblue;
   font-size: 18px; }
 
-.footer {
-  font-size: 2rem;
-  text-align: center;
-  color: #000; }
+#header {
+  margin-bottom: 2rem; }
 
 .skills .skill {
   width: 100%;
@@ -8112,23 +8119,36 @@ textarea.form-control-lg {
 .container {
   margin: 3rem; }
 
-.navigation-menu > ul > li {
-  position: relative;
-  white-space: nowrap;
-  float: left; }
+.education {
+  margin: 2rem 0rem; }
 
-.navigation-menu a {
-  display: block;
-  position: relative;
-  color: #4e4039;
-  padding: 10px 15px;
-  transition: 0.3s;
-  font-size: 1.5rem;
-  font-family: "Lato", sans-serif; }
+.about-text {
+  color: #000;
+  font-family: 'Lato', sans-serif; }
 
-.navigation-menu a:hover, .nav-menu .active > a, .navigation-menu li:hover > a {
-  color: #eb5d1e;
-  text-decoration: none; }
+.hello-text {
+  font-size: 5.6rem;
+  font-weight: 500; }
+
+.user_name {
+  font-size: 3.6rem;
+  font-weight: 400; }
+
+.contact {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  margin: 1.6rem 0rem; }
+
+.experience {
+  margin: 2rem 0rem;
+  font-family: 'Lato', sans-serif; }
+
+.footer {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem; }
 
 .row {
   max-width: 114rem;
@@ -8162,8 +8182,14 @@ textarea.form-control-lg {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: #fff;
+  background: royalblue;
+  color: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); }
+  #header .nav-item .nav-link {
+    color: #fff !important; }
+  #header .navbar-brand {
+    color: #fff !important;
+    font-size: 1.6rem !important; }
 
 #header .logo h1 {
   font-size: 30px;
@@ -8180,8 +8206,3 @@ textarea.form-control-lg {
 /* // BACKGROUND-COLOR */
 .bg-light-gray {
   background-color: #f7f7f7; }
-
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px; }
