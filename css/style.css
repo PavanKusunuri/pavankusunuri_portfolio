@@ -8172,6 +8172,14 @@ textarea.form-control-lg {
   background: #fff;
   border: 2px solid #0563bb; }
 
+.card {
+  width: 45%;
+  border: 1px solid grey;
+  margin: 10px;
+  border-radius: 16px; }
+  .card .card-content {
+    padding: 10px; }
+
 .about-text {
   color: #000;
   font-family: 'Lato', sans-serif; }
