@@ -8112,9 +8112,12 @@ textarea.form-control-lg {
 #header {
   margin-bottom: 2rem; }
 
-.skills .skill {
-  width: 100%;
-  margin: 10rem 0rem; }
+.mini-card {
+  border: 1px solid green;
+  height: 40px;
+  width: 80px; }
+  .mini-card span {
+    padding: 14px; }
 
 .container {
   margin: 3rem; }
@@ -8207,6 +8210,10 @@ textarea.form-control-lg {
   color: #000;
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem; }
+
+.footer_content {
+  text-align: center;
+  margin: 0 auto; }
 
 .row {
   max-width: 114rem;
