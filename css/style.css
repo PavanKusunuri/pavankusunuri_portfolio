@@ -1,4 +1,21 @@
 @charset "UTF-8";
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
 *,
 *::after,
 *::before {
@@ -262,12 +279,10 @@ sup {
 
 a {
   color: #0d6efd;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 a:hover {
-  color: #0a58ca;
-  text-decoration: none;
- }
+  color: #0a58ca; }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -8103,6 +8118,17 @@ textarea.form-control-lg {
 #tools h1 {
   color: #ff7f50; }
 
+#tools .skill-item {
+  width: 10%; }
+
+.skill-item {
+  border-radius: 30%;
+  border: 1px solid #ff7f50;
+  padding: 4px 10px;
+  background: #ff7f50;
+  color: #fff;
+  margin: 8px; }
+
 .mini-card {
   border: 1px solid green;
   height: 40px;
@@ -8112,6 +8138,12 @@ textarea.form-control-lg {
 
 .container {
   margin: 3rem; }
+
+#nav-bar, #navHeader {
+  background-color: #ff7f50; }
+  #nav-bar a, #navHeader a {
+    color: #fff;
+    text-decoration: none; }
 
 #education {
   margin: 2rem 0rem; }
@@ -8172,7 +8204,7 @@ textarea.form-control-lg {
   color: #ff7f50; }
 
 .card {
-  width: 45%;
+  width: 250px;
   border: 1px solid grey;
   margin: 10px;
   border-radius: 16px; }
@@ -8180,10 +8212,13 @@ textarea.form-control-lg {
     padding: 10px; }
 
 .about-section {
-  height: 300px; }
+  height: 150px; }
 
 #about h1 {
   color: #ff7f50; }
+
+#about .about {
+  margin-top: 120px; }
 
 .about-text {
   color: #000;
@@ -8260,7 +8295,7 @@ textarea.form-control-lg {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: #ff7f50;
+  background: royalblue;
   color: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); }
   #header .nav-item .nav-link {
