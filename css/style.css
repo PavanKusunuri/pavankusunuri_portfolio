@@ -8183,6 +8183,9 @@ textarea.form-control-lg {
   .card .card-content {
     padding: 10px; }
 
+.about-section {
+  height: 300px; }
+
 .about-text {
   color: #000;
   font-family: 'Lato', sans-serif; }
