@@ -8112,6 +8112,12 @@ textarea.form-control-lg {
 #header {
   margin-bottom: 2rem; }
 
+#skills h1 {
+  color: #ff7f50; }
+
+#tools h1 {
+  color: #ff7f50; }
+
 .mini-card {
   border: 1px solid green;
   height: 40px;
@@ -8122,8 +8128,10 @@ textarea.form-control-lg {
 .container {
   margin: 3rem; }
 
-.education {
+#education {
   margin: 2rem 0rem; }
+  #education h1, #education h4 {
+    color: #ff7f50; }
 
 .resume .resume-title {
   font-size: 26px;
@@ -8175,6 +8183,9 @@ textarea.form-control-lg {
   background: #fff;
   border: 2px solid #0563bb; }
 
+#portfolio h1, #portfolio h2, #portfolio strong {
+  color: #ff7f50; }
+
 .card {
   width: 45%;
   border: 1px solid grey;
@@ -8185,6 +8196,9 @@ textarea.form-control-lg {
 
 .about-section {
   height: 300px; }
+
+#about h1 {
+  color: #ff7f50; }
 
 .about-text {
   color: #000;
@@ -8198,8 +8212,11 @@ textarea.form-control-lg {
   font-size: 3.6rem;
   font-weight: 400; }
 
-.contact {
-  color: #fff;
+#contact h1, #contact strong {
+  color: #ff7f50; }
+
+#contact .contact {
+  color: #000;
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
   margin: 1.6rem 0rem; }
@@ -8207,6 +8224,14 @@ textarea.form-control-lg {
 .experience {
   margin: 2rem 0rem;
   font-family: 'Lato', sans-serif; }
+
+#experience h1, #experience h2 {
+  color: #ff7f50; }
+
+#projects {
+  font-family: 'Lato', sans-serif; }
+  #projects h1, #projects h3, #projects h4, #projects h5, #projects strong {
+    color: #ff7f50; }
 
 .footer {
   background-color: #fff;
