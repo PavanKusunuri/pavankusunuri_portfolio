@@ -8139,9 +8139,12 @@ textarea.form-control-lg {
 .container {
   margin: 3rem; }
 
-#nav-bar, #navHeader {
-  background-color: #ff7f50; }
-  #nav-bar a, #navHeader a {
+#nav-bar,
+#navHeader {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); }
+  #nav-bar a,
+  #navHeader a {
     color: #fff;
     text-decoration: none; }
 
