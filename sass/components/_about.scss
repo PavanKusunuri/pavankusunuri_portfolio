@@ -1,25 +1,33 @@
 .about-section {
-    height:150px;
+  height: 300px;
 }
 #about {
-h1 {
+  h1 {
     color: #000;
-}
-.about {
-    margin-top:120px;
-}
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+  .about {
+    margin-top: 120px;
+  }
 }
 
 .about-text {
-    color: #000;
-    font-family: 'Lato', sans-serif;
+  color: #000;
+  font-family: "Lato", sans-serif;
 }
 .hello-text {
- font-size: 5.6rem;
- font-weight: 500;
+  font-size: 5.6rem;
+  font-weight: 500;
 }
 
 .user_name {
-    font-size: 3.6rem;
-    font-weight: 400;
+  font-size: 3.6rem;
+  font-weight: 400;
 }

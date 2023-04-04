@@ -8113,7 +8113,8 @@ textarea.form-control-lg {
   margin-bottom: 2rem; }
 
 #skills h1 {
-  color: #ff7f50; }
+  color: #000;
+  text-align: center; }
 
 #tools h1 {
   color: #ff7f50; }
@@ -8122,12 +8123,12 @@ textarea.form-control-lg {
   width: 10%; }
 
 .skill-item {
-  border-radius: 30%;
-  border: 1px solid #ff7f50;
+  border-radius: 30px;
   padding: 4px 10px;
-  background: #ff7f50;
   color: #fff;
   margin: 8px; }
+  .skill-item img {
+    height: 50px; }
 
 .mini-card {
   border: 1px solid green;
@@ -8147,11 +8148,18 @@ textarea.form-control-lg {
   #navHeader a {
     color: #fff;
     text-decoration: none; }
+  #nav-bar .navbar-sections,
+  #navHeader .navbar-sections {
+    display: flex;
+    justify-content: space-between; }
 
 #education {
   margin: 2rem 0rem; }
-  #education h1, #education h4 {
-    color: #ff7f50; }
+  #education h1,
+  #education h4 {
+    color: #000; }
+  #education h1 {
+    text-align: center; }
 
 .resume .resume-title {
   font-size: 26px;
@@ -8203,8 +8211,12 @@ textarea.form-control-lg {
   background: #fff;
   border: 2px solid #ff7f50; }
 
-#portfolio h1, #portfolio h2, #portfolio strong {
-  color: #ff7f50; }
+#portfolio h1,
+#portfolio strong {
+  color: #000; }
+
+#portfolio h2 {
+  color: #00008b; }
 
 .card {
   width: 250px;
@@ -8213,19 +8225,29 @@ textarea.form-control-lg {
   border-radius: 16px; }
   .card .card-content {
     padding: 10px; }
+    .card .card-content h2 {
+      color: blue; }
 
 .about-section {
-  height: 150px; }
+  height: 300px; }
 
 #about h1 {
-  color: #ff7f50; }
+  color: #000; }
+
+#about .flex-container {
+  display: flex;
+  justify-content: space-between; }
+
+#about .profile-pic {
+  width: 200px;
+  height: 200px; }
 
 #about .about {
   margin-top: 120px; }
 
 .about-text {
   color: #000;
-  font-family: 'Lato', sans-serif; }
+  font-family: "Lato", sans-serif; }
 
 .hello-text {
   font-size: 5.6rem;
@@ -8246,10 +8268,11 @@ textarea.form-control-lg {
 
 .experience {
   margin: 2rem 0rem;
-  font-family: 'Lato', sans-serif; }
+  font-family: "Lato", sans-serif; }
 
-#experience h1, #experience h2 {
-  color: #ff7f50; }
+#experience h1,
+#experience h2 {
+  color: #000; }
 
 #projects {
   font-family: 'Lato', sans-serif; }

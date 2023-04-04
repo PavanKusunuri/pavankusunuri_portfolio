@@ -13,47 +13,57 @@
 <body>
   <!-- Header -->
   <header id="navHeader" class="fixed-top">
-    <nav class="navbar navbar-expand-lg" id="nav-bar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pavan Kusunuri</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item mx-3">
-              <a class="nav-link active" aria-current="page" href="#about">About Me</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#projects">Portfolio</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class="navbar-sections">
+          <div class="item1">
+            <a class="navbar-brand" href="#">Pavan Kusunuri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="item2">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-3">
+                  <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#projects">Portfolio</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+         
         </div>
+    
+        
       </div>
-    </nav>
   </header>
   <!--  About Section -->
   <section class="about-section" id="about">
     <div class="container">
       <div class="about">
         <h1 class="text-center mt-2">About Me</h1>
+        <div class="flex-container">
+
+        <img class="profile-pic" src="./p1.jpeg"/>
         <div class="about-text">
           A Software Engineer with around 4 years of experience in building scalable web applications using Javascript,
           Python and Ruby.
         </div>
+      </div>
+
       </div>
     </div>
   </section>
@@ -64,33 +74,34 @@
         <h1>Skills</h1>
         <div class="d-flex flex-wrap">
           <div class="skill-item">
-            HTML 5
+            <img src="./icons/html 5.png" alt="HTML5" />
           </div>
           <div class="skill-item">
-            CSS 3
+             <img src="./icons/css3.png" alt="CSS 3" />
           </div>
           <div class="skill-item">
-            JavaScript
+            <img src="./icons/Javascript.png" alt="JavaScript" />
           </div>
           <div class="skill-item">
-            React
+            <img src="./icons/React">
           </div>
           <div class="skill-item">
-            Python
+            <img src="./icons/Python.png" />
           </div>
           <div class="skill-item">
-            Django
+            <img src="./icons/Django.png">
           </div>
           <div class="skill-item">
-            Ruby on Rails </div>
+             <img src="./icons/ror.jpg" /> 
+            </div>
           <div class="skill-item">
-            Node.js
+            <img src="./icons/Node.png"/>
           </div>
           <div class="skill-item">
-            Express.js
+            <img src="./icons/Express.png" />
           </div>
           <div class="skill-item">
-            Mongo Db
+             <img src="./icons/mongo db.png" />
           </div>
           <div class="skill-item">
             Frontend Development
@@ -161,7 +172,7 @@
           <ul>
             <li>
               Developing new components and adding new feature for a client facing application built using React.js and
-              and  Ruby on Rails.
+              and  Ruby on Rails
             </li>
             <li>
               Maintaining existing web applications and implementing new features and

@@ -1,33 +1,33 @@
 #skills {
-    h1 {
-        color: #ff7f50
-    }
-   
+  h1 {
+    color: #000;
+    text-align: center;
+  }
 }
 #tools {
-    h1 {
-        color: #ff7f50;
-    }
-    .skill-item {
-        width:10%;
-    }
+  h1 {
+    color: #ff7f50;
+  }
+  .skill-item {
+    width: 10%;
+  }
 }
 
 .skill-item {
-    border-radius:30%;
-    border: 1px solid #ff7f50;
-    padding:4px 10px;
-    background: #ff7f50;
-    color: #fff;
-    margin:8px;
+  img {
+    height: 50px;
+  }
+  border-radius: 30px;
+  padding: 4px 10px;
+  color: #fff;
+  margin: 8px;
 }
 
-
 .mini-card {
-    border: 1px solid green;
-    height: 40px;
-    width: 80px;
-    span {
-        padding: 14px;
-    }
+  border: 1px solid green;
+  height: 40px;
+  width: 80px;
+  span {
+    padding: 14px;
+  }
 }
