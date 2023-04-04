@@ -1,0 +1,12 @@
+#tools {
+    .tools-heading {
+        text-align: center;
+        color: $color-primary;
+    }
+    .tools-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 30px;
+    }
+}

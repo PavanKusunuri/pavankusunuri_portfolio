@@ -8119,13 +8119,6 @@ textarea.form-control-lg {
     color: #3C8307;
     text-align: center; }
 
-#tools h1 {
-  margin: 24px 0px;
-  color: #3C8307; }
-
-#tools .skill-item {
-  width: 10%; }
-
 .skill-item {
   border-radius: 30px;
   padding: 4px 10px;
@@ -8296,6 +8289,16 @@ textarea.form-control-lg {
   #footer .footer-content {
     height: 60px;
     font-family: "Lato", sans-serif; }
+
+#tools .tools-heading {
+  text-align: center;
+  color: #55c57a; }
+
+#tools .tools-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px; }
 
 .footer {
   background-color: #fff;
