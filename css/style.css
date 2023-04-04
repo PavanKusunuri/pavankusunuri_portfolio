@@ -8112,12 +8112,16 @@ textarea.form-control-lg {
 #header {
   margin-bottom: 2rem; }
 
-#skills h1 {
-  color: #000;
-  text-align: center; }
+#skills {
+  height: 200px; }
+  #skills h1 {
+    margin: 24px 0px;
+    color: #3C8307;
+    text-align: center; }
 
 #tools h1 {
-  color: #ff7f50; }
+  margin: 24px 0px;
+  color: #3C8307; }
 
 #tools .skill-item {
   width: 10%; }
@@ -8278,6 +8282,10 @@ textarea.form-control-lg {
   font-family: 'Lato', sans-serif; }
   #projects h1, #projects h3, #projects h4, #projects h5, #projects strong {
     color: #ff7f50; }
+
+#footer {
+  background-color: black;
+  color: white; }
 
 .footer {
   background-color: #fff;
